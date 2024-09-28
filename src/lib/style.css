@@ -1,0 +1,238 @@
+/* #region colors */
+:root {
+	--md-sys-color-primary: rgb(0, 0, 0);
+	--md-sys-color-surface-tint: rgb(0, 0, 0);
+	--md-sys-color-on-primary: rgb(0, 0, 0);
+	--md-sys-color-primary-container: rgb(0, 0, 0);
+	--md-sys-color-on-primary-container: rgb(0, 0, 0);
+	--md-sys-color-secondary: rgb(0, 0, 0);
+	--md-sys-color-on-secondary: rgb(0, 0, 0);
+	--md-sys-color-secondary-container: rgb(0, 0, 0);
+	--md-sys-color-on-secondary-container: rgb(0, 0, 0);
+	--md-sys-color-tertiary: rgb(0, 0, 0);
+	--md-sys-color-on-tertiary: rgb(0, 0, 0);
+	--md-sys-color-tertiary-container: rgb(0, 0, 0);
+	--md-sys-color-on-tertiary-container: rgb(0, 0, 0);
+	--md-sys-color-error: rgb(0, 0, 0);
+	--md-sys-color-on-error: rgb(0, 0, 0);
+	--md-sys-color-error-container: rgb(0, 0, 0);
+	--md-sys-color-on-error-container: rgb(0, 0, 0);
+	--md-sys-color-background: rgb(0, 0, 0);
+	--md-sys-color-on-background: rgb(0, 0, 0);
+	--md-sys-color-surface: rgb(0, 0, 0);
+	--md-sys-color-on-surface: rgb(0, 0, 0);
+	--md-sys-color-surface-variant: rgb(0, 0, 0);
+	--md-sys-color-on-surface-variant: rgb(0, 0, 0);
+	--md-sys-color-outline: rgb(0, 0, 0);
+	--md-sys-color-outline-variant: rgb(0, 0, 0);
+	--md-sys-color-shadow: rgb(0, 0, 0);
+	--md-sys-color-scrim: rgb(0, 0, 0);
+	--md-sys-color-inverse-surface: rgb(0, 0, 0);
+	--md-sys-color-inverse-on-surface: rgb(0, 0, 0);
+	--md-sys-color-inverse-primary: rgb(0, 0, 0);
+	--md-sys-color-primary-fixed: rgb(0, 0, 0);
+	--md-sys-color-on-primary-fixed: rgb(0, 0, 0);
+	--md-sys-color-primary-fixed-dim: rgb(0, 0, 0);
+	--md-sys-color-on-primary-fixed-variant: rgb(0, 0, 0);
+	--md-sys-color-secondary-fixed: rgb(0, 0, 0);
+	--md-sys-color-on-secondary-fixed: rgb(0, 0, 0);
+	--md-sys-color-secondary-fixed-dim: rgb(0, 0, 0);
+	--md-sys-color-on-secondary-fixed-variant: rgb(0, 0, 0);
+	--md-sys-color-tertiary-fixed: rgb(0, 0, 0);
+	--md-sys-color-on-tertiary-fixed: rgb(0, 0, 0);
+	--md-sys-color-tertiary-fixed-dim: rgb(0, 0, 0);
+	--md-sys-color-on-tertiary-fixed-variant: rgb(0, 0, 0);
+	--md-sys-color-surface-dim: rgb(0, 0, 0);
+	--md-sys-color-surface-bright: rgb(0, 0, 0);
+	--md-sys-color-surface-container-lowest: rgb(0, 0, 0);
+	--md-sys-color-surface-container-low: rgb(0, 0, 0);
+	--md-sys-color-surface-container: rgb(0, 0, 0);
+	--md-sys-color-surface-container-high: rgb(0, 0, 0);
+	--md-sys-color-surface-container-highest: rgb(0, 0, 0);
+}
+
+/* @media (prefers-color-scheme: dark) {
+/*	:root {
+		--md-sys-color-primary: rgb(255 181 160);
+		--md-sys-color-surface-tint: rgb(255 181 160);
+		--md-sys-color-on-primary: rgb(86 31 15);
+		--md-sys-color-primary-container: rgb(114 53 35);
+		--md-sys-color-on-primary-container: rgb(255 219 209);
+		--md-sys-color-secondary: rgb(231 189 178);
+		--md-sys-color-on-secondary: rgb(68 42 34);
+		--md-sys-color-secondary-container: rgb(93 64 55);
+		--md-sys-color-on-secondary-container: rgb(255 219 209);
+		--md-sys-color-tertiary: rgb(216 197 141);
+		--md-sys-color-on-tertiary: rgb(59 47 5);
+		--md-sys-color-tertiary-container: rgb(83 70 25);
+		--md-sys-color-on-tertiary-container: rgb(245 225 167);
+		--md-sys-color-error: rgb(255 180 171);
+		--md-sys-color-on-error: rgb(105 0 5);
+		--md-sys-color-error-container: rgb(147 0 10);
+		--md-sys-color-on-error-container: rgb(255 218 214);
+		--md-sys-color-background: rgb(26 17 15);
+		--md-sys-color-on-background: rgb(241 223 218);
+		--md-sys-color-surface: rgb(26 17 15);
+		--md-sys-color-on-surface: rgb(241 223 218);
+		--md-sys-color-surface-variant: rgb(83 67 63);
+		--md-sys-color-on-surface-variant: rgb(216 194 188);
+		--md-sys-color-outline: rgb(160 140 135);
+		--md-sys-color-outline-variant: rgb(83 67 63);
+		--md-sys-color-shadow: rgb(0 0 0);
+		--md-sys-color-scrim: rgb(0 0 0);
+		--md-sys-color-inverse-surface: rgb(241 223 218);
+		--md-sys-color-inverse-on-surface: rgb(57 46 43);
+		--md-sys-color-inverse-primary: rgb(143 76 56);
+		--md-sys-color-primary-fixed: rgb(255 219 209);
+		--md-sys-color-on-primary-fixed: rgb(58 11 1);
+		--md-sys-color-primary-fixed-dim: rgb(255 181 160);
+		--md-sys-color-on-primary-fixed-variant: rgb(114 53 35);
+		--md-sys-color-secondary-fixed: rgb(255 219 209);
+		--md-sys-color-on-secondary-fixed: rgb(44 21 15);
+		--md-sys-color-secondary-fixed-dim: rgb(231 189 178);
+		--md-sys-color-on-secondary-fixed-variant: rgb(93 64 55);
+		--md-sys-color-tertiary-fixed: rgb(245 225 167);
+		--md-sys-color-on-tertiary-fixed: rgb(35 27 0);
+		--md-sys-color-tertiary-fixed-dim: rgb(216 197 141);
+		--md-sys-color-on-tertiary-fixed-variant: rgb(83 70 25);
+		--md-sys-color-surface-dim: rgb(26 17 15);
+		--md-sys-color-surface-bright: rgb(66 55 52);
+		--md-sys-color-surface-container-lowest: rgb(20 12 10);
+		--md-sys-color-surface-container-low: rgb(35 25 23);
+		--md-sys-color-surface-container: rgb(39 29 27);
+		--md-sys-color-surface-container-high: rgb(50 40 37);
+		--md-sys-color-surface-container-highest: rgb(61 50 47);
+	}
+}  */
+/* #endregion */
+
+*,
+body,
+:root {
+	font-family:
+		Roboto,
+		'Roboto',
+		system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		'Segoe UI',
+		Oxygen,
+		Ubuntu,
+		Cantarell,
+		'Open Sans',
+		'Helvetica Neue',
+		sans-serif;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+body {
+	width: 100dvw;
+	overflow: hidden;
+	margin: 0;
+	background-color: var(--md-sys-color-surface-container-lowest);
+	color: var(--md-sys-color-on-surface);
+	user-select: none;
+}
+a {
+	color: var(--md-sys-color-tertiary);
+}
+
+/* #region shapes */
+:root {
+	--md-sys-shape-corner-full: 1000000000dvw;
+
+	--md-sys-shape-corner-extra-small: 4px;
+	--md-sys-shape-corner-small: 8px;
+	--md-sys-shape-corner-extra-small-top: 4px 4px 0 0;
+}
+:root {
+	--circular: var(--md-sys-shape-corner-full);
+}
+
+/* #endregion */
+
+/* #region state */
+:root {
+	/* Dragged state layer opacity */
+	--md-sys-state-dragged-state-layer-opacity: 0.1599999964237213;
+	/* Pressed state layer opacity */
+	--md-sys-state-pressed-state-layer-opacity: 0.11999999731779099;
+	/* Focus state layer opacity */
+	--md-sys-state-focus-state-layer-opacity: 0.11999999731779099;
+	/* Hover state layer opacity */
+	--md-sys-state-hover-state-layer-opacity: 0.07999999821186066;
+
+	--md-sys-state-focus-indicator-thickness: 3px;
+	--md-sys-state-focus-indicator-outer-offset: calc(
+		2px - var(--md-sys-state-focus-indicator-thickness)
+	);
+	--md-sys-state-focus-indicator-inner-offset: calc(
+		0px - var(--md-sys-state-focus-indicator-thickness)
+	);
+}
+
+/* #endregion */
+
+/* #region type */
+:root {
+	/* Dragged state layer opacity */
+	--md-sys-typescale-body-small-font: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont,
+		'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	--md-sys-typescale-body-small-line-height: 16px;
+	--md-sys-typescale-body-small-size: 12px;
+	--md-sys-typescale-body-small-weight: 400;
+	--md-sys-typescale-body-small-tracking: 0.4pt;
+
+	--md-sys-typescale-label-large-font: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont,
+		'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	--md-sys-typescale-label-large-line-height: 20px;
+	--md-sys-typescale-label-large-size: 14px;
+	--md-sys-typescale-label-large-weight: 500;
+	--md-sys-typescale-label-large-tracking: 0.1pt;
+
+	--md-sys-typescale-label-medium-font: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont,
+		'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	--md-sys-typescale-label-medium-line-height: 16px;
+	--md-sys-typescale-label-medium-size: 12px;
+	--md-sys-typescale-label-medium-weight: 500;
+	--md-sys-typescale-label-medium-weight-prominent: 700;
+	--md-sys-typescale-label-medium-tracking: 0.5pt;
+
+	--md-sys-typescale-label-small-font: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont,
+		'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	--md-sys-typescale-label-small-line-height: 16px;
+	--md-sys-typescale-label-small-size: 11px;
+	--md-sys-typescale-label-small-weight: 500;
+	--md-sys-typescale-label-small-tracking: 0.5pt;
+
+	/* Dragged state layer opacity */
+	--md-sys-typescale-body-large-font: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont,
+		'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	--md-sys-typescale-body-large-line-height: 24px;
+	--md-sys-typescale-body-large-size: 16px;
+	--md-sys-typescale-body-large-weight: 400;
+	--md-sys-typescale-body-large-tracking: 0.5pt;
+}
+
+/* #endregion */
+
+/* width */
+::-webkit-scrollbar {
+	width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--md-sys-color-primary);
+	border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: var(--md-sys-color-primary);
+}

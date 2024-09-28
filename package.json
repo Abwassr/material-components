@@ -1,6 +1,7 @@
 {
-	"name": "material-components",
+	"name": "svelte-material-components",
 	"version": "0.0.1",
+	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -46,5 +47,8 @@
 	},
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@material/material-color-utilities": "^0.3.0"
+	}
 }
